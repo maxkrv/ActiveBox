@@ -595,6 +595,7 @@ p {
     .nav {
         width: 100%;
         flex-direction: column;
+        display: none;
 
         text-align: right;
         background-color: #31344e;
@@ -608,6 +609,8 @@ p {
     }
 
     .nav.active {
+        display: flex;
+
         opacity: 1;
     }
 
